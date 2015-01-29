@@ -239,7 +239,7 @@
 		#me
 		{
 			padding: 0;
-			height: 20em;
+			height: 45em;
 		}
 		
 			#me .pic
@@ -247,8 +247,8 @@
 				display: block;
 				position: absolute;
 				right: -1px;
-				top: 0;
-				height: 100%;
+				top: 5em;
+				height: 20em;
 				text-decoration: none;
 			}
 			
@@ -304,6 +304,7 @@
 			#me header
 			{
 				position: absolute;
+				padding-top: 50px;
 				left: 0;
 				top: 0;
 				width: 100%;
@@ -313,20 +314,34 @@
 			
 				#me header > h1
 				{
-					position: absolute;
+					/*position: absolute;*/
 					left: 0;
 					bottom: 52.5%;
 					margin: 0;
 				}
 			
-				#me header > p 
+				#me header h3
 				{
-					position: absolute;
+					/*position: absolute;*/
 					left: 0;
 					top: 52.5%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
-					margin-top: 0;
+					margin-top: 10px;
+					margin-bottom: 20px;
+					color: #aaa;
+					font-weight: 300;
+
+				}
+
+				#me header > p {
+					width: 500px;
+					line-height: 1.25em;
+				}
+
+				.skills {
+					margin: auto;
+					width: 50%;
 				}
 
 /*********************************************************************************/

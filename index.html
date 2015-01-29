@@ -45,12 +45,43 @@
 							<article id="me" class="panel">
 								<header>
 									<h1>Jeffrey "Jake" Barszcz</h1>
-									<p>Web Developer</p>
+									<h3>Web Developer</h3>
+									<p>
+										Hi! My name is Jake and I'm a web developer based in New York City. I've primarily worked with Rails and Backbone.js, but I have experience with all parts of the web stack (including HTML5 and CSS3). I graduated <em>magna cum laude</em> with a B.A. in International Affairs from The George Washington University in Washington, D.C. in May of 2014, but my first love has always been technology. This lifelong passion, combined with my aptitude for logical thinking and problem-solving, has made programming a natural fit for me, and I'm excited to make it my new career.
+									</p>
+									<p>In addition to tech, my interests include, but are not limited to, international politics (natch), sustainable energy and development, beer (the good kinds), the eternal quest for the perfect cup of coffee, and the pursuit of knowledge in all forms. </p>
+									<h3>A smattering of technologies I've used:</h3>
+									<div class="skills">
+										<div class="row">
+											<div class="3u">
+												<a href="http://rubyonrails.org" class="image fit"><img src="images/rails.png"></a>
+											</div>
+											<div class="3u">
+												<a href="http://backbonejs.org" class="image fit"><img src="images/backbone.png"></a>
+											</div>
+											<div class="3u">
+												<a href="http://nodejs.org" class="image fit"><img src="images/node.png"></a>
+											</div>										
+										</div>
+										<div class="row">
+											<div class="3u">
+												<a href="http://www.w3.org/html/" class="image fit"><img src="images/html5.png"></a>
+											</div>
+											<div class="3u">
+												<a href="http://www.postgresql.org" class="image fit"><img src="images/postgres.png"></a>
+											</div>
+											<div class="3u">
+												<a href="http://git-scm.com" class="image fit"><img src="images/git.png"></a>
+											</div>																		
+										</div>
+									</div>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="css/images/jeffrey-barszcz.jpg" alt="" />
+									<img src="images/jeffrey-barszcz.jpg" alt="" />
 								</a>
+									
+
 							</article>
 
 						<!-- Work --> 
@@ -72,38 +103,18 @@
 										<p>A single-page social music-streaming app inspired by <a href="http://soundcloud.com">SoundCloud</a>, built primarily with Backbone.js, consuming a RESTful JSON API served by a Ruby on Rails backend. Features a persistent now-playing queue, user uploading, playlists (which may be public or private), comments and tags. Uses the Paperclip gem in conjunction with Amazon AWS to handle file upload and storage, implements a CompositeView class in Backbone to better modularize code, and overrides Backbone.sync to facilitate global error handling. (<a href="http://github.com/jbfarszcz/beatsoup">Github</a>)</p>
 									</div>
 									<div class="row">
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-									</div>
+										<strong><a href="http://jfbarszcz.com/asteroids">JSteroids</a></strong>
+									</div>						
 									<div class="row">
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										<div class="6u">
+											<div class="image fit"><img src="images/asteroids.png"></div>
 										</div>
 									</div>
+									<p>A vaguely psychedelic browser-based version of the classic arcade game Asteroids, powered by JavaScript and HTML5 Canvas. Pretty colors! Lasers! Space! Cats! What more could you possibly want?? For this project I extended JavaScript's Array prototype to add functions for vector math, and wrote an "inherits" function to let me use JS's prototypal inheritance in a more classical manner. These two decisions enabled a huge amount of code reuse.(<a href="http://github.com/jfbarszcz/asteroids">Github</a>)</p>
 									<div class="row">
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
+										<strong><a href="http://github.com/jfbarszcz/active-record-lite">ActiveRecord Lite</a></strong>
 									</div>
+									<p>A bare-bones reimplementation of Ruby on Rails' ActiveRecord ORM. Takes full advantage of Ruby's powerful reflection and metaprogramming capabilities in order to implement a domain-specific language, which gets translated into raw SQL queries, on top of Ruby. In its current form it implements search queries, insert/update, and associations.</p>
 								</section>
 							</article>
 
