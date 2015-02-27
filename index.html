@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Jeffrey "Jake" Barszcz - Web Developer</title>
+		<title>Jeffrey Barszcz :: Web Developer</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -99,38 +99,59 @@
 									Here are some projects I've worked on:
 								</p>
 								<section>
-									<div class="row">
-										<strong><a href="http://www.beatsoup.me">BeatSoup</a></strong>
-									</div>
+									<p>
+										<strong>BeatSoup</strong> (<a href="http://www.beatsoup.me">Live</a> | <a href="http://github.com/jbfarszcz/beatsoup">Github</a>)
+									</p>
 									<div class="row">
 										<div class="9u">
 											<div class="image fit"><img src="images/beatsoup.png" alt="BeatSoup"></div>
 										</div>
-										<p class="blurb">A single-page social music-streaming app inspired by <a href="http://soundcloud.com">SoundCloud</a>, built primarily with Backbone.js, consuming a RESTful JSON API served by a Ruby on Rails backend. Features a persistent now-playing queue, user uploading, playlists (which may be public or private), comments and tags. Uses the Paperclip gem in conjunction with Amazon AWS to handle file upload and storage, implements a CompositeView class in Backbone to better modularize code, and overrides Backbone.sync to facilitate global error handling. (<a href="http://github.com/jbfarszcz/beatsoup">Github</a>)</p>
+										<p class="blurb">A single-page social music-streaming app inspired by <a href="http://soundcloud.com">SoundCloud</a>.</p> 
+										<ul class="default">
+											<li>Built primarily with Backbone.js, consuming a RESTful JSON API served by a Ruby on Rails backend.</li> 
+											<li>Features a persistent now-playing queue, user uploading, playlists (which may be public or private), comments and tags.</li> 
+											<li>Uses the Paperclip gem in conjunction with Amazon AWS to handle file upload and storage.</li> 
+										</ul>
 									</div>
-									<div class="row">
-										<strong><a href="http://fixpoint.jfbarszcz.com/">Fixpoint</a></strong>
-									</div>						
+									<p>
+										<strong>Fixpoint</strong> (<a href="http://fixpoint.jfbarszcz.com/">Live</a> | <a href="http://github.com/jfbarszcz/fixpoint">Github</a>)
+									</p>						
 									<div class="row">
 										<div class="9u">
 											<div class="image fit"><img src="images/fixpoint.png"></div>
 										</div>
+									<p class="blurb">A reader for <a href="https://news.ycombinator.com">Hacker News</a> built with React.js.</p> 
+
+									<ul class="default">
+										<li>Leverages React's fast virtual-DOM architecture to create a highly performant single-page app.</li> 
+										<li>Consumes Hacker News' <a href="https://www.firebase.com">Firebase</a> API, allowing for easy access to real-time updates.</li> 
+										<li>Also uses <a href="https://github.com/larrymyers/react-mini-router">react-mini-router</a> to handle routing and <a href="http://momentjs.com">Moment.js</a> for generating human-friendly timestamps.</li>
+									</ul>
 									</div>
-									<p class="blurb">A reader for <a href="https://news.ycombinator.com">Hacker News</a> built with React.js. I found React a pleasure to work with; its component-based model makes it incredibly easy to build web interfaces using relatively few lines of code, and its virtual-DOM architecture makes these interfaces incredibly fast and responsive, effectively by default. Using Hacker News' API (graciously hosted by <a href="https://www.firebase.com">Firebase</a>) also allowed easy access to real-time updates and let me host the app on Github pages, as the API handled my backend concerns. The project also uses <a href="https://github.com/larrymyers/react-mini-router">react-mini-router</a> to handle routing and <a href="http://momentjs.com">Moment.js</a> for generating human-friendly timestamps. (<a href="http://github.com/jfbarszcz/fixpoint">Github</a>)</p>
-									<div class="row">
-										<strong><a href="http://jfbarszcz.com/asteroids">JSteroids</a></strong>
-									</div>						
+									<p>
+										<strong>JSteroids</strong> (<a href="http://jfbarszcz.com/asteroids">Live</a> | <a href="http://github.com/jfbarszcz/asteroids">Github</a>)
+									</p>						
 									<div class="row">
 										<div class="6u">
 											<div class="image fit"><img src="images/asteroids.png"></div>
 										</div>
 									</div>
-									<p class="blurb">A vaguely psychedelic browser-based version of the classic arcade game Asteroids, powered by JavaScript and HTML5 Canvas. Pretty colors! Lasers! Space! Cats! What more could you possibly want?? For this project I extended JavaScript's Array prototype to add functions for vector math, and wrote an "inherits" function to let me use JS's prototypal inheritance in a more classical manner. These two decisions enabled a huge amount of code reuse. (<a href="http://github.com/jfbarszcz/asteroids">Github</a>)</p>
-
-									<div class="row">
-										<strong><a href="http://github.com/jfbarszcz/active-record-lite">ActiveRecord Lite</a></strong>
-									</div>
-									<p class="blurb">A bare-bones reimplementation of Ruby on Rails' ActiveRecord ORM. Takes full advantage of Ruby's powerful reflection and metaprogramming capabilities in order to implement a domain-specific language, which gets translated into raw SQL queries, on top of Ruby. In its current form it implements search queries, insert/update, and associations.</p>
+									<p class="blurb">A vaguely psychedelic browser-based version of the classic arcade game Asteroids.</p> 
+									<ul class="default">
+										<li>Written in JavaScript and uses the HTML5 &lt;canvas&gt; API for animation.</li>
+										<li>Pretty colors! Lasers! Space! Cats! What more could you possibly want??</li> 
+										<li>Extends JavaScript's Array prototype to add functions for vector math.</li>
+										<li>Uses an "inherits" function to let me use JS's prototypal inheritance in a more classical manner.</li>
+									</ul>
+									<p>
+										<strong>ActiveRecord Lite</strong> (<a href="http://github.com/jfbarszcz/active-record-lite">Github</a>)
+									</p>
+									<p class="blurb">A basic reimplementation of Ruby on Rails' ActiveRecord ORM library.</p> 
+									<ul class="default">
+										<li>Takes advantage of Ruby's powerful reflection and metaprogramming capabilities.</li> 
+										<li>Implements a domain-specific language, which gets translated into raw SQL queries, on top of Ruby.</li> 
+										<li>Currently implements search queries, insert/update, and associations.</li>
+									</ul>
 								</section>
 							</article>
 
